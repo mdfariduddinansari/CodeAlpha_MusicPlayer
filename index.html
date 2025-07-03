@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="player">
+    <div class="header">
+      <h1>Music Player</h1>
+      <p>Curated by Farid 🎧</p>
+    </div>
+
+    <div class="song-display" id="songDisplay"></div>
+
+    <div class="waveform" id="waveform"></div>
+
+    <input type="range" id="timeline" value="0" step="1" />
+    <div class="time-info">
+      <span id="currentTime">0:00</span>  <span id="totalTime">0:00</span>
+    </div>
+
+    <div class="controls">
+      <button id="prevBtn">⏮️</button>
+      <button id="playBtn">▶️</button>
+      <button id="nextBtn">⏭️</button>
+    </div>
+
+    <div class="volume-control">
+      <label for="volume">🔊</label>
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="1"/>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
