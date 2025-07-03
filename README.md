@@ -2,7 +2,7 @@
 
 This is a futuristic, glowing, beat-reactive music player created using HTML, CSS, and JavaScript.
 
-🔨 Built as part of my internship with [@CodeAlpha](https://www.linkedin.com/company/codealphaorg/)
+🔨 Built as part of my internship with [@CodeAlpha](https://www.linkedin.com/company/codealpha/posts/?feedView=all))
 
 ## Features
 - 🎧 Custom local playlist
